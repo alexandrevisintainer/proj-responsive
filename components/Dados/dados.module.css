@@ -37,3 +37,13 @@
         padding-top: 2%;
     }
 }
+@media screen and (max-width: 510px) {
+    .center h1 {
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .center h1 {
+        font-size: 6rem;
+    }
+}

@@ -47,7 +47,7 @@
     padding-bottom: 16px;
 }
 .cards p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .card2 {
@@ -82,9 +82,16 @@
     padding: 32px 0 32px 0;
     margin: 0;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     .center h1 {
-        font-size: 7rem;
+        font-size: 6rem;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 420px) {
+    .center h1 {
+        font-size: 5rem;
         font-weight: 600;
         margin: 0;
     }
@@ -100,5 +107,13 @@
     max-width: 270px;
     text-align: left;
     margin: auto;
+    }
+    .cards h2{
+        font-size: 2.4rem;
+        padding-bottom: 16px;
+    }
+    .cards p {
+        font-size: 1.6rem;
+        font-weight: 600;
     }
 }

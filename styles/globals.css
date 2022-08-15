@@ -18,13 +18,3 @@ a {
 * {
   box-sizing: border-box;
 }
-@media screen and (max-width: 1320px) {
-  html{
-      font-size: 50%;
-  }
-}
-@media screen and (max-width: 425px) {
-  html{
-      font-size: 45%;
-  }
-}

@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Dados from '../components/Dados'
 import About from '../components/AboutUs'
 import Services from '../components/Services'
+import Clients from '../components/Clients'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Dados />
       <About />
       <Services />
+      <Clients />
     </div>
   )
 }
