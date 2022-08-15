@@ -17,7 +17,7 @@
 }
 .card1 {
     background-image: url(../../public/image1.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
     height: 525px;
@@ -73,6 +73,7 @@
     max-width: 400px;
     text-align: center;
     justify-content: center;
+    position: relative;
     margin: 16px auto;
 }
 .center h1 {
