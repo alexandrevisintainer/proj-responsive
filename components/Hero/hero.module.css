@@ -1,0 +1,50 @@
+.container {
+    height: 100%;
+    min-height: 100vh;
+    background-color: #060724;
+    color: #fff;
+}
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    height: 100vh;
+    width: 50%;
+    position: relative;
+}
+.content {
+    margin: 100px 100px 0 100px;
+    max-width: 90%;
+}
+.content h1 {
+    font-size: 8rem;
+    font-weight: 600;
+}
+.content h4 {
+    font-size: 2.4rem;
+}
+.content button {
+    font-size: 2rem;
+    padding: 16px 32px 16px 32px;
+    font-weight: bold;
+    background-color: #EB7F67;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .center {
+        flex-direction: column;
+    }
+    .image {
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+    .content {
+        padding: 30px 0 30px 0;
+        margin: auto;
+    }
+}

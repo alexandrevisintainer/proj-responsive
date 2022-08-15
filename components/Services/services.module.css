@@ -1,0 +1,103 @@
+.container {
+    height: 100%;
+    min-height: 100vh;
+    background-color: #060724;
+    color: #fff;
+}
+.center {
+    max-width: 90%;
+    margin: auto;
+}
+.cards {
+    width: 100%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.card1 {
+    background-image: url(../../public/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 525px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 16px auto;
+}
+
+.cards p,
+.cards h2 {
+    max-width: 300px;
+    text-align: left;
+    margin: auto;
+    color: #fff;
+}
+.cardCenter {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    
+}
+.cards h2{
+    font-size: 2.8rem;
+    padding-bottom: 16px;
+}
+.cards p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.card2 {
+    height: 525px;
+    width: 100%;
+    background-image: url(../../public/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 16px auto;
+}
+.card3 {
+    height: 525px;
+    width: 100%;
+    background-image: url(../../public/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    margin: 16px auto;
+}
+.center h1 {
+    font-size: 8rem;
+    font-weight: 500;
+    padding: 32px 0 32px 0;
+    margin: 0;
+}
+@media screen and (max-width: 450px) {
+    .center h1 {
+        font-size: 7rem;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .cardCenter {
+        position: absolute;
+        bottom: 50px;
+        left: 25px;
+    }
+    .cards p,
+    .cards h2 {
+    max-width: 270px;
+    text-align: left;
+    margin: auto;
+    }
+}
